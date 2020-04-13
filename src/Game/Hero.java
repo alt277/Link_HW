@@ -53,7 +53,6 @@ public String giveName(){
     void addHealth(int health) {
       if(this.health==0)  this.health += health;
     }
-
     void info() {
         System.out.println(name + " "+this.getClass().getName() + (health < 0 ? " вне игры "+health
                                                                       :" "+ health) + " " + damage);
